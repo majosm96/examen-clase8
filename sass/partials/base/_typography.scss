@@ -1,0 +1,67 @@
+//Typography
+
+
+@font-face {
+    font-family: 'dry_brush';
+    src: url('../fonts/dry_brush-webfont.woff2') format('woff2'),
+         url('../fonts/dry_brush-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+a {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 14px;
+}
+
+h1 {
+    font-family: 'dry_brush';
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    padding-top: 200px;
+    margin: 0 auto;
+}
+
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  text-align: center;
+}
+
+h4 {
+  display: none;
+}
+
+
+h3 {
+   font-family: 'dry_brush';
+   font-size: 30px;
+   color: #fff;
+   height: 50px;
+   position: absolute;
+   top: 196px;
+   left: 0;
+   width: 100%;
+   background: rgba(black, 0.7);
+   -webkit-transition: all 2s;
+   transition: all 2s;
+}
+
+
+h3:hover {
+    top: 125px;
+    height: 150px;
+}
+
+.info {
+  font-family: 'dry_brush';
+  font-size: 20px;
+  color: #fff;
+}

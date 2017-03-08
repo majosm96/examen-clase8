@@ -1,0 +1,68 @@
+//Conteiners
+
+//main wrraper
+
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+//section articles
+
+.articles {
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+  position: relative;
+}
+
+.articles:first-child{
+  margin-left: 50px;
+}
+
+.img-article {
+  width: 350px;
+  height: 250px;
+  position: relative;
+}
+
+.img-article:hover{
+    transition: translate(20px);
+
+}
+
+.new-articles {
+  padding-top: 20px;
+  display: -webkit-flex;
+  display: flex;
+	width: 1000px;
+  text-align: center;
+}
+
+.section-articles {
+  padding: 50px 0 20px 0;
+  margin: 0 auto;
+}
+
+
+//section quienes somos
+
+.quienes-somos{
+  display: -webkit-flex;
+  display: flex;
+  background-image: url(../img/beach3.jpg);
+  height: 550px;
+}
+
+.section3 {
+  color: #fff;
+  width: 50%;
+  padding: 30px;
+}
+
+.info-aboutus {
+  margin: 100px 70px 0 0;
+  h2 {
+    margin: 15px 0 15px 0;
+  }
+}

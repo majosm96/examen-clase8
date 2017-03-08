@@ -1,0 +1,53 @@
+//Navegation
+
+.logo {
+  float: left;
+}
+
+.main-nav {
+  float: right;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.main-nav li {
+  display: inline;
+    float: left;
+}
+
+.main-nav li a {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+//footer navegation 
+.footer-nav {
+  padding: 30px 0 25px 0px;
+  text-align: center;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.footer-nav li {
+  display: inline;
+}
+
+.footer-nav li a {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
